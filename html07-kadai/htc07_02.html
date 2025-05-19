@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>ユーザー登録</title>
+</head>
+<body>
+
+<h1><img src="images/htc07_logo.jpg" alt="ユーザー登録"></h1>
+<form action="htc07_02.html" method="post">
+	<table>
+		<tbody>
+			<tr>
+				<th width="200" height="40">ユーザー名</th>
+				<td><input type="text" name="user_name" size="30" required></td>
+			</tr>
+			<tr>
+				<th width="200" height="40">ユーザーID</th>
+				<td>
+					<input type="text" name="user_id" required>&nbsp;&nbsp;
+					<input type="button" name="check_btn" value="重複チェック">
+				</td>
+			</tr>
+			<tr>
+				<th width="200" height="40">パスワード</th>
+				<td><input type="password" name="pass" required></td>
+			</tr>
+			<tr>
+				<th width="200" height="40">パスワード（確認）</th>
+				<td><input type="password" name="pass_pre" required></td>
+			</tr>
+			<tr>
+				<th width="200" height="40">お住まいの地方</th>
+				<td>
+					<select name="address">
+						<option>-------</option>
+						<option value="hokkaidou">北海道</option>
+						<option value="tohoku">東北地方</option>
+						<option value="kantou">関東地方</option>
+						<option value="chubu">中部地方</option>
+						<option value="kinki" selected>近畿地方</option>
+						<option value="chugoku">中国地方</option>
+						<option value="sikoku">四国地方</option>
+						<option value="kyusyu">九州地方</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<th width="200" height="40">どこで知りましたか</th>
+				<td>
+					<label><input type="radio" name="media" value="internet">インターネット</label>
+					<label><input type="radio" name="media" value="tv">テレビ</label>
+					<label><input type="radio" name="media" value="magazine">雑誌・広告</label>
+					<label><input type="radio" name="media" value="etc" checked>その他</label>
+				</td>
+			</tr>
+			<tr>
+				<th width="200" height="20">お得な情報</th>
+				<td><label><input type="checkbox" name="deals" value="yes">サイトのお得な情報を受取る</label></td>
+			</tr>
+			<tr>
+				<th width="200" height="20">メールアドレス</th>
+				<td><input type="email" name="email" required></td>
+			</tr>
+			<tr>
+				<th width="200" height="150">ご意見ご参考</th>
+				<td>
+					<textarea cols="40" rows="5" name="comment"></textarea>
+				</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<th height="40" colspan="3" align="center">
+					<input type="reset" name="reset" value="リセット">&nbsp;
+					<input type="submit" name="send" value="送信">
+				</th>
+			</tr>
+		</tfoot>
+	</table>
+</form>
+
+</body>
+</html>
