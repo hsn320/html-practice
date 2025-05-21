@@ -1,0 +1,55 @@
+h1{
+	color: #FF0000;
+}
+
+p{
+	color: tomato;
+}
+
+*{
+/*	color: orange;*/
+}
+
+#title{
+	font-size: 14px;
+	color: navy;
+}
+
+.subtitle{
+	color: skyblue;
+	font-size: 18px;
+	font-style: italic;
+}
+
+h2.subtitle{
+	width: 300px;
+	color: lime;
+	font-size: 24px;
+	font-weight: normal;
+	font-style: normal;
+}
+
+h2.subtitle:hover{
+	background: tomato;
+}
+
+#framework li{
+	font-style: italic;
+}
+
+.first:first-letter{
+	font-size: 30px;
+	color: gold;
+}
+
+.clientwrap{
+	font-size: 12px;
+}
+
+.clientwrap p:first-line{
+	font-size: 2em;
+}
+
+#title,.subtitle{
+	text-decoration: underline;
+}
