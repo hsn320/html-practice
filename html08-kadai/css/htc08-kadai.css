@@ -1,0 +1,25 @@
+h1{
+	color: skyblue;
+}
+
+#age{
+	color: tomato;
+}
+
+.subtitle{
+	color: navy;
+	font-size: 25px;
+}
+
+p{
+	color: orange;
+	font-style: italic;
+	
+	&:first-letter{
+		color: #141414;
+	}
+}
+
+.oneWord:first-line{
+	color: navy;
+}
