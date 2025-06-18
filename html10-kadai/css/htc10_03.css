@@ -1,0 +1,44 @@
+body{
+	font-family: "ＭＳ Ｐゴシック" , sans-serif;
+	font-size: 100%;
+	padding: 20px;
+	background-color: #FOFFBA;
+	background-image:url("../images/htc10_back.jpg");
+	background-repeat: repeat;
+	background-position: left top;
+}
+.title{
+	color: #3F200E;
+	font-size: 20px;
+	border-bottom: solid 3px #8F7517;
+}
+.subTitle{
+	color: #3F200E;
+	font-size: 16px;
+	padding-left: 5px;
+	border-left: solid 3px #8F7517;
+}
+.set{
+	margin: 10px 0;
+	padding: 10px;
+	border: dotted 1px #453933;
+}
+
+.set > p{
+	font-size: 0.7em;
+	margin: 10px;
+	padding: 5px 0;
+}
+.set img{
+	padding: 2px;
+	background: #FFF;
+	border: solid 1px #BEBEBE;
+}
+.itemTitle{
+	color:#FFF;
+	padding: 0.3em;
+	background: #281105;
+}
+#drinkMenu{
+	text-align: right;
+}
