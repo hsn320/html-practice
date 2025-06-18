@@ -1,0 +1,37 @@
+body{
+	font-family: "ＭＳ Ｐゴシック" , sans-serif;
+	font-size: 18px;
+	background-color: #7AE;
+	background-image: url("../images/htc10_bkline.jpg");
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+#box{
+	background-image: url("../images/htc10_standards.png");
+	background-position: right top;
+	background-repeat: no-repeat;
+}
+h1{
+	color: #CCF;
+	font-size: 140%;
+	padding-bottom: 10px;
+}
+h2,h3{
+	color: #FFF;
+	font-size: 100%;
+	margin-bottom: 10px;
+	padding: 5px;
+	border-bottom: solid 1px #C30;
+}
+p{
+	line-height: 1.2em;
+}
+.border{
+	border-bottom: dotted 1px #fff;
+	border-right: dotted 1px #fff;
+}
+#box_top,#box_bottom
+{
+	padding: 10px 0 10px 5px;
+	text-indent: 1em;
+}
