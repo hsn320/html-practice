@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font: 100% "ＭＳ Ｐゴシック" , sans-serif;
+	background: #F0FFBA url("../../html10-kadai/images/htc10_back.jpg") left top repeat;
+}
+#logo{
+	text-align: center;
+}
+#container{
+	width: 800px;
+	margin: 40px auto 0;
+}
+#main{
+	margin: 20px 0;
+}
+.drink{
+	position: relative;
+	margin: 45px 0;
+	width: 250px;
+	z-index: 0;
+}
+.drinklmg img{
+	padding: 2px;
+	background: #FFF;
+	border: solid 1px #7D7760;
+}
+.drink p{
+	font-size: 0.8em;
+}
+.price{
+	color: #FF41D0;
+	font-weight: bold;
+}
+.item{
+	padding: 10px;
+	text-align: center;
+}
+.new{
+	position: absolute;
+	left: -30px;
+	top: -30px;
+	z-index: 10;
+}
+.sns{
+	position: fixed;
+	left:0;
+	top:20px;
+	z-index: 100;
+}
+#footer{
+	font-size: 0.8em;
+	text-align: center;
+	padding: 10px 0;
+	border-top: dotted 1px #666;
+}
