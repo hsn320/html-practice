@@ -1,0 +1,23 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<title>製品情報</title>
+</head>
+<body>
+<ul>
+	<li><a href="#">製品情報</a></li>
+	<li><a href="#">取扱店舗一覧</a></li>
+	<li><a href="#">プレスリリース</a></li>
+	<li><a href="#">会社案内</a></li>
+</ul>
+
+<h1>製品情報</h1>
+<ul>
+	<li><a href="#">リビングパソコンTYPE-LXを発表しました。</a></li>
+	<li><a href="#">音楽ケータイW52iSを発表しました。</a></li>
+	<li><a href="#">デジタル一眼レフカメラDSC-K1proを発表しました。</a></li>
+</ul>
+</body>
+</html>
