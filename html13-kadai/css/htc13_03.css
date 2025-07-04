@@ -1,0 +1,164 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+}
+body{
+	background: url("../images/htc13_03_bk_body.jpg") left top repeat;
+}
+ul{
+	list-style-type: none;
+}
+#container{
+	width: 950px;
+	margin: 20px auto 0;
+}
+#header{
+	width: 950px;
+	padding-bottom: 20px;
+}
+#content{
+	display: flex;
+}
+#nav{
+	width: 200px;
+	height: 340px;
+	position:relative;
+}
+#footer{
+	width: 950px;
+	font-size: 0.6em;
+	padding: 10px 0;
+	border-top: dotted 1px #666;
+	text-align: center;
+}
+#nav ul{
+	width: 180px;
+	padding: 5px 10px;
+	background: #efe8d3;
+	position: fixed;
+}
+#nav li{
+	width: 175px;
+	margin: 10px 0;
+	padding-bottom: 10px;
+	border-bottom: dotted 1px #cdbea0;
+}
+#nav a{
+	display:block;
+	width: 165px;
+	height: 33px;
+	line-height: 23px;
+	padding: 10px 5px 0;
+}
+#nav a:link,a:visited{
+	font-size: 0.8em;
+	text-decoration: none;
+	text-align: right;
+	color: #432519;
+	font-weight: bold;
+}
+#company a{
+	background: url("../images/htc13_03_btn_nav01.png");
+}
+#company a:hover{
+	background: url("../images/htc13_03_btn_nav01_on.png");
+}
+#menu a{
+	background: url("../images/htc13_03_btn_nav02.png");
+}
+#menu a:hover{
+	background: url("../images/htc13_03_btn_nav02_on.png");
+}
+#special a{
+	background: url("../images/htc13_03_btn_nav03.png");
+}
+#special a:hover{
+	background: url("../images/htc13_03_btn_nav03_on.png");
+}
+#season a{
+	background: url("../images/htc13_03_btn_nav04.png");
+}
+#season a:hover{
+	background: url("../images/htc13_03_btn_nav04_on.png");
+}
+#cake a{
+	background: url("../images/htc13_03_btn_nav05.png");
+}
+#cake a:hover{
+	background: url("../images/htc13_03_btn_nav05_on.png");
+}
+#main{
+	width: 700px;
+	margin: 0 0 20px 20px;
+	background: #f8f8f8;
+}
+.mainlmg{
+	width: 700px;
+	height: 200px;
+	margin-bottom: 20px;
+}
+.itemWrap{
+	display: flex;
+	font-size: 0.8em;
+	width: 600px;
+	height: 200px;
+	margin: 20px;
+	padding: 20px;
+	border: solid 1px #cdbea0;
+	position: relative;
+}
+.itemlmg{
+	width: 250px;
+}
+.itemlmg img{
+	padding: 2px;
+	border: solid 1px #999;
+	background: #fff;
+}
+.itemContentWrap{
+	width: 350px;
+}
+.itemTitle{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.itemText{
+	line-height: 1.3em;
+}
+.price{
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	background: #3d160d;
+	display: block;
+	padding: 0.2em;
+	margin: 20px 0 0 auto;
+	width: 8em;
+}
+.component{
+	width: 350px;
+	border-collapse: collapse;
+}
+.component th,td{
+	border: solid 1px #999;
+	padding: 5px;
+	font-size: 0.8em;
+}
+	
+.component caption{
+	font-weight: bold;
+}
+	
+.component th{
+	background: #dedede;
+}
+	
+.component td{
+	text-align: center;
+}
+.rcm{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
