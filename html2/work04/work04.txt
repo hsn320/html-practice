@@ -1,0 +1,20 @@
+CSS Animation
+WORK4 Animation
+
+button
+button
+
+プロフィールスタイルの作成
+kids
+Tarou ECC
+2300年から日本に帰国してきた帰国子女
+親の仕事の影響で、5年の間にヨーロッパの各国の巡り、若干8才にしてすでに4ヶ国語可能。趣味はポケモン。
+
+Extra: 3DBOXの作成
+front
+right
+left
+back
+top
+bottom
+copyright c comp ecccomp.Inc
