@@ -1,0 +1,47 @@
+html{
+	font-size: 62.5%;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    background: #333;
+    color: #fff;
+    font-size: 2rem;
+}
+ul{
+    margin: 160px 0 200px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+#home{
+    background: #FF6347;
+    width: 80px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#home a{
+    color: #fff;
+    font-size: 1.2rem;
+}
+.menu-item{
+    background: #00152E;
+    border-left: 1px solid #3D4F5A;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.menu-item a{
+    color: #fff;
+    font-size: 1.2rem;
+}
+footer{
+    text-align: center;
+}
