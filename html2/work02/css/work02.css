@@ -4,16 +4,23 @@ html{
 a{
     text-decoration: none;
 }
-h1{
+header{
+    width: 1510px;
+    height: 40px;
     background: #333;
+    line-height: 40px;
+}
+h1{
     color: #fff;
     font-size: 2rem;
+    padding-left: 10px;
 }
 ul{
     margin: 160px 0 200px;
     display: flex;
     justify-content: center;
     list-style: none;
+    padding: 0;
 }
 #home{
     background: #FF6347;
@@ -27,6 +34,7 @@ ul{
 #home a{
     color: #fff;
     font-size: 1.2rem;
+    display: block;
 }
 .menu-item{
     background: #00152E;
@@ -37,11 +45,63 @@ ul{
     line-height: 50px;
     font-family: sans-serif;
     font-weight: bold;
+    position: relative;
 }
 .menu-item a{
     color: #fff;
     font-size: 1.2rem;
+    display: block;
+}
+.menu-item a:hover{
+    background: #333;
+}
+.menu-item > ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #333;
+    margin: 0;
+    padding: 0;
+}
+.menu-item:hover > ul{
+    display: block;
+}
+.sub-menu{
+    position: relative;
+    width: 200px;
+    height: 50px;
+}
+.sub-menu a{
+    display: block;
+    color: #fff;
+}
+.sub-menu a:hover{
+    background: #f2f2f2;
+    color: #333;
+}
+.sub-menu:hover > .extra{
+    display: block;
+}
+.extra{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background: #666;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+.extra a{
+    display: block;
+    color: #fff;
+}
+.extra a:hover{
+    background: #EFEFEF;
+    color: #333;
 }
 footer{
     text-align: center;
+    font-size: 1rem;
 }
