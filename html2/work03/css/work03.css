@@ -16,12 +16,17 @@ h1{
     padding-left: 10px;
     font-weight: bold;
 }
-.itemWrap{
-    width: 1512px;
-}
-#mainImg{
+.images{
     width: 100%;
     height: 600px;
-    object-fit: cover;
-    object-position: bottom;
+    background-image:
+        url(../images/03_bg_overlay.png),
+        linear-gradient(
+            to bottom,
+            rgba(79, 79, 79, 0.58),
+            rgba(0, 0, 0, 0.1)),
+        url(../images/03_bg.jpg);
+    background-size: 4px 4px, cover, cover;
+    background-position: bottom;
+    background-repeat: repeat, no-repeat, no-repeat;
 }
