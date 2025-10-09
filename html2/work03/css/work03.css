@@ -23,10 +23,61 @@ h1{
         url(../images/03_bg_overlay.png),
         linear-gradient(
             to bottom,
-            rgba(79, 79, 79, 0.58),
-            rgba(0, 0, 0, 0.1)),
+            rgba(72, 72, 72, 0.55),
+            rgba(21, 21, 21, 0.2)),
         url(../images/03_bg.jpg);
     background-size: 4px 4px, cover, cover;
     background-position: bottom;
     background-repeat: repeat, no-repeat, no-repeat;
+    text-align: center;
+    line-height: 600px;
+}
+.images h2{
+    font-size: 8rem;
+    font-family: "Antonio", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: underline;
+}
+.styleWrap{
+    margin: 20px;
+    padding: 20px;
+    border: dotted 1px #333;
+}
+.ttl{
+    font-size: 1.4em;
+    margin-bottom: 19px;
+}
+.btn{
+    width: 260px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+.btn a{
+    width: 100%;
+    height: 100%;
+    background: #46C4DB;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.4em;
+    display: block;
+}
+.btn a:hover{
+    background: #55B4C6;
+}
+.btnStyle2 a{
+    border-radius: 6px;
+}
+.btnStyle3 a{
+    box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.25);
+}
+.btnStyle3 a:active {
+    box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.25);
+}
+.icon{
+    margin-bottom: 20px;
+}
+footer{
+    text-align: center;
 }
