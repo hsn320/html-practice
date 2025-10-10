@@ -23,8 +23,8 @@ h1{
         url(../images/03_bg_overlay.png),
         linear-gradient(
             to bottom,
-            rgba(72, 72, 72, 0.55),
-            rgba(21, 21, 21, 0.2)),
+            rgba(62, 62, 62, 0.5),
+            rgba(0, 0, 0, 0.15)),
         url(../images/03_bg.jpg);
     background-size: 4px 4px, cover, cover;
     background-position: bottom;
@@ -77,6 +77,28 @@ h1{
 }
 .icon{
     margin-bottom: 20px;
+}
+.icon a{
+    position: relative;
+    display: inline-block;
+}
+.iconArrow::after{
+    content: "";
+    position: absolute;
+    right: 20px;
+    top: 18px;
+    width: 24px;
+    height: 24px;
+    background: url("../images/03_iconArrow.svg") no-repeat center / contain;
+}
+.iconStore::after{
+    content: "";
+    position: absolute;
+    right: 20px;
+    top: 18px;
+    width: 24px;
+    height: 24px;
+    background: url("../images/03_iconStore.svg") no-repeat center / contain;
 }
 footer{
     text-align: center;
