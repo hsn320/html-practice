@@ -1,0 +1,16 @@
+html{
+	font-size: 62.5%;
+}
+header{
+    background: #333;
+    width: auto;
+    height: 43px;
+    line-height: 43px;
+}
+h1{
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #fff;
+    padding-left: 10px;
+}
