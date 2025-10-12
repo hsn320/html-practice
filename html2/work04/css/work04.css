@@ -14,3 +14,51 @@ h1{
     color: #fff;
     padding-left: 10px;
 }
+@keyframes bgImg{
+    0%  { background: #8DE0E3;}
+    20% { background: #E3B28D;}
+    40% { background: #E38D8D;}
+    60% { background: #E3E38D;}
+    80% { background: #AE8DE3;}
+    100%{ background: #E3DD8D;}
+}
+.mainImg{
+    width: 100%;
+    height: 560px;
+    animation: bgImg 20s infinite alternate;
+}
+.mainImg p{
+    font-size: 16rem;
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    color: #fff;
+    text-align: center;
+    line-height: 560px;
+}
+.btnWrap{
+    width: 100%;
+    height: 380px;
+    display: flex;
+}
+.btnBase{
+    width: 50%;
+    height: 380px;
+    background: #FF6347;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.btnBase a{
+    display: block;
+    color: #fff;
+    font-size: 2rem;
+    text-decoration: none;
+    border: 1px solid #fff;
+    width: 70%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+.btnLink{
+    background: #87CEEB;
+}
