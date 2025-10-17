@@ -58,9 +58,27 @@ h1{
     height: 60px;
     line-height: 60px;
     text-align: center;
+    transition: ease-in-out .3s;
+}
+.btnBase a:hover{
+    color: #FF6347;
+    background: #fff;
 }
 .btnLink{
     background: #87CEEB;
+    transition: ease 3s;
+}
+.btnLink:hover{
+    background: #AE8DE3;
+}
+.btnLink a{
+    background: url(../img/04_iconArrow.png) 110% center no-repeat;
+    transition: .3s ease-in-out;
+}
+.btnLink a:hover{
+    color: #fff;
+    letter-spacing: 1.6rem;
+    background: url(../img/04_iconArrow.png) 95% center no-repeat;
 }
 .content{
     margin: 20px 0;
