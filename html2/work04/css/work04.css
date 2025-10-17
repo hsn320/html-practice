@@ -95,9 +95,11 @@ h1{
     border: solid 1px #EFEFEF;
     border-radius: 8px;
     overflow: hidden;
+    transition: .3s ease-in-out;
 }
 .cardWrap:hover{
     cursor: pointer;
+    box-shadow: 1px 1px 6px #999;
 }
 .cardImgWrap{
     width: 100%;
@@ -116,6 +118,7 @@ h1{
     margin: 0 auto;
     border-radius: 100%;
     display: block;
+    box-shadow: 1px 1px 6px #999;
 }
 .cardInnerWrap{
     padding: 20px;
