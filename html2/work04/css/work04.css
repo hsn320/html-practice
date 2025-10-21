@@ -86,7 +86,6 @@ h1{
     border-top: dotted 1px #333;
 }
 .contentTtl{
-    margin: 20px 0 10px;
     font-size: 1.5rem;
 }
 .cardWrap{
@@ -141,9 +140,6 @@ h1{
     margin: 20px 0;
     padding: 20px;
     border: dotted 1px #c0c0c0;
-}
-.exWrap h2{
-    font-size: 1.5rem;
 }
 footer{
     text-align: center;
