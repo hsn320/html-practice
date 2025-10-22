@@ -137,10 +137,87 @@ h1{
     line-height: 1.8;
 }
 .exWrap{
+    width: 100%;
+    height: 800px;
     margin: 20px 0;
     padding: 20px;
-    border: dotted 1px #c0c0c0;
+    border: dotted 1px #333;
 }
+.exBox{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    transform-style: preserve-3d;
+    transform-origin: center center;
+    animation: exRotate 10s infinite;
+    transform: rotateX(-25deg) rotateY(45deg) rotate(0);
+    transition: .4s ease-in-out
+}
+
+
+.exBox .ex {
+    background: var(--exImgUrl) center center no-repeat!important;
+    width: 100%;
+    height: 100%;
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 320px;
+    color: #fff;
+    margin: 0;
+    position: absolute;
+    border: solid 1px #34495e
+}
+
+.exBox .front {
+    background: #3498db;
+    z-index: 10;
+    transform: translateZ(200px)
+}
+
+.exBox .right {
+    background: #2ecc71;
+    z-index: 1;
+    transform: translate(200px) rotateY(90deg)
+}
+
+.exBox .left {
+    background: #1abc9c;
+    transform: translate(-200px) rotateY(-90deg)
+}
+
+.exBox .back{
+    background: #2c3e50;
+    transform: translateZ(-200px) rotateY(180deg)
+}
+
+.exBox .top {
+    background: #9b59b6;
+    transform: translateY(-200px) rotateX(90deg) rotateY(0);
+    transform-origin: right center;
+    transition: .6s cubic-bezier(.55,1,.52,.11)
+}
+
+.exBox:hover>.top {
+    transform-origin: right center;
+    transform: translateY(-200px) rotateX(90deg) rotateY(180deg)
+}
+
+.exBox .bottom{
+    background: #e74c3c;
+    transform: translateY(200px) rotateX(-90deg)
+}
+@keyframes exRotate {
+    0% {
+        transform: rotateX(0) rotateY(0) rotate(0)
+    }
+
+    to {
+        transform: rotateX(360deg) rotateY(360deg) rotate(360deg)
+    }
+}
+
 footer{
     text-align: center;
 }
