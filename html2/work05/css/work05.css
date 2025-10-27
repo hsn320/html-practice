@@ -6,4 +6,16 @@ ul{
 }
 header{
     background: #302833;
+    width: auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    font-size: 20px;
+    color: #fff;
+}
+ul{
+    display: flex;
 }
