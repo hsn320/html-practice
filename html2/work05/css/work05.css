@@ -4,6 +4,9 @@ html{
 ul{
     list-style: none;
 }
+a{
+    text-decoration: none;
+}
 header{
     background: #302833;
     width: auto;
@@ -13,9 +16,24 @@ header{
     justify-content: space-between;
 }
 h1{
-    font-size: 20px;
+    font-size: 2rem;
     color: #fff;
+    padding-left: 25px;
 }
 ul{
     display: flex;
+}
+li{
+    margin: 0 50px;
+}
+li:last-child{
+    margin: 0 30px;
+}
+li>a{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.mainImg_{
+    background: url(../images/05_bg.jpg);
 }
