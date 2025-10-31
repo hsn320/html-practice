@@ -44,6 +44,15 @@ ul{
     }
 }
 .mainImg{
-    background: url(../img/05_bg.jpg) center/cover no-repeat;
+    background: 
+        url(../img/05_bg.jpg) center center/cover no-repeat;
     height: 600px;
+    .txt{
+        margin-right: 100px;
+        h2{
+            color: #fff;
+            font-size: 5.6rem;
+            font-weight: 100;
+        }
+    }
 }
