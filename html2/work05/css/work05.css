@@ -47,12 +47,24 @@ ul{
     background: 
         url(../img/05_bg.jpg) center center/cover no-repeat;
     height: 600px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     .txt{
         margin-right: 100px;
         h2{
             color: #fff;
             font-size: 5.6rem;
             font-weight: 100;
+            font-family: serif;
+        }
+        p{
+            color: #fff;
+            font-size: 1.4rem;
+            font-family: serif;
+            border-top: solid 1px #fff;
+            padding-top: 10px;
+            line-height: 2.5;
         }
     }
 }
