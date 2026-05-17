@@ -1,0 +1,19 @@
+.button{
+    width: 100px;
+    height: 100px;
+    background: #53aad2;
+    margin-bottom: 20px;
+    transition: 2s;
+    &:hover{
+        background-color: #448cae;
+    }
+}
+.button2{
+    width: 100px;
+    height: 100px;
+    background: #53aad2;
+    transition: 2s;
+    &:hover{
+        transform: translateY(30px);
+    }
+}
