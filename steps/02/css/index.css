@@ -1,0 +1,15 @@
+
+.rocket{
+    margin: 0 auto;
+    background: url(../img/rocket2.png) no-repeat;
+    background-size: 2800px 200px;
+    width: 350px;
+    height: 200px;
+    animation: steps 1.3s steps(8) infinite;
+}
+
+@keyframes steps {
+    to {
+        background-position: -2800px 0;
+    }
+}
